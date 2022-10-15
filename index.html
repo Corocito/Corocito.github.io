@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Personal</title>
+    <link rel="icon" href="imagenes/La grande.ico">
+    <!--Se enlaza el archivo de css para el diseño-->
+    <link rel="stylesheet" href="style.css"> 
+    <!--Se enlaza el archivo de JavaScript para el funcionamiento-->
+    <script src="scritp.js"></script>
+    <!--Se selecciona el archivo que contiene el diseño de la pagina web-->
+    <meta name="author" content="Samuel Orozco Mondragón">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<!--La pagina web va a tratar sobre las gallinas dando informacion relacionada con las gallinas, cuidados, razas, entre mas información-->
+<body>
+
+<!--Se crea un mensaje para que se muestre en caso de que el usuario no cuente con
+Javascript activado-->
+<noscript>
+    <p>La página requiere el uso de JavaScript para su correcto funcionamiento</p>
+    <p>Active JavaScript por favor</p>
+</noscript>
+
+
+<header class="header">
+    <div class="container">
+
+        <div class="btnMenuCorredizo">
+            <label for="btn-menu">☰</label>
+        </div>
+
+        <p class="logo">Página Web Personal</p>
+
+        <nav class="menuPrincipal">
+            <a href="index.html">Principal</a>
+            <a href="tablas.html">Tablas</a>
+            <a href="video.html">Video</a>
+            <a href="formulario.html">Formulario</a>
+        </nav>
+    </div>
+ <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C122.12,182.06 659.37,-117.92 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(22, 82, 132);"></path></svg></div>
+
+</header>
+
+
+<!--Se crea la sección que va a contener el menú corredizo-->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+    <div class="cont_menu">
+        <nav>
+            <a href="index.html">Principal</a>
+            <a href="tablas.html">Tablas</a>
+            <a href="video.html">Video</a>
+            <a href="formulario.html">Formulario</a>
+        </nav>
+        <label for="btn-menu">✖️</label>
+    </div>
+</div>
+
+<!--Se crea la sección en la cual se va a dar la explicación del tema de la pagina web-->
+<section id="descripcion">
+    <div class="container__descripcion"> <!--Se crea una clase que se encarga de dar la bienvenida al usuario-->
+        
+        <h2>Las Gallinas</h2>
+        <p>El gallo y la gallina (Gallus gallus domesticus) son la subespecie doméstica de la especie Gallus gallus, una especie de ave galliforme de la familia Phasianidae procedente del sudeste asiático. 
+            Los nombres comunes son: gallo, para el macho; gallina, para la hembra, y pollo, para los subadultos. Es el ave más numerosa del planeta, pues se calcula que el número de ejemplares supera los dieciséis mil millones.</p>
+    </div>
+</section>
+
+<!--Se pasa a realizar las secciones para las distintas razas de gallinas-->
+<section id="razas">
+    <div class="container__razas">
+        <h2 class="titulo__razas">Razas de Gallinas</h2>
+
+        <div>En el mundo existen distintas razas de gallinas, algunas de estas son:</div>
+        <!---->
+        <!---->
+        <section id="razaRhodeIsland">
+            
+            <div class="descripcion__RhodeIsland">
+                <h2 class="titulo__descripcionRhodeIsland">Rhode Island</h2>
+                <p>Posee un cuerpo largo de forma similar a un cubo, cresta simple y pone huevos de color café. Su piel es amarilla y plumaje
+                     rojo con algunas plumas de color negro en el cuello, lomo, cola y alas. Durante los últimos años la Rhode Island Roja se ha
+                     usado casi exclusivamente para eslabonamiento sexual ligado a la progenie.</p>
+            </div>
+            <div class="img__containerRhodeIsland"><img src="imagenes/Gallina-Rhode-Island-Red.jpg" alt="Gallina Rhode Island" title="Gallina Rhode Island"></div>
+        </section>
+        <!---->
+        <!---->
+        <section id="razaPlymouthRock">
+            
+            <div class="descripcion__PlaymouthRock">
+                <h2 class="titulo__descripcionOlaymouthRock">Playmouth Rock Blanca </h2>
+                <p>Es una variedad de piel amarilla y cresta simple. Su plumaje blanco constituye una característica que le da ventaja a los
+                     productores y plantas procesadoras, ya que estas aves despluman mejor que aquellas de plumaje de otro color. <br>
+                     Sin embargo, esta línea desde el punto genético, es de plumaje lento, siendo una desventaja para la producción de pollo de engorde de calidad. Aunque ahora la mayoría de las líneas que provienen de estas aves son de emplume rápido.
+                    </p>
+            </div>
+            <div class="img__containerPlymouth"><img src="imagenes/plymouthRock.jpg" alt="Gallina Playmouth Rock" title="Gallina Playmouth Rock"></div>
+
+        </section>
+        <!---->
+        <!---->
+        <section id="razaCornish">
+            
+            <div class="descripcion__Cornish">
+                <h2 class="titulo__descripcionCornish">Cornish</h2>
+                <p>Estos pollos tienen cresta de tipo garbanzo, ponen huevo de color café y tienen la piel amarilla. Su tipo corporal es muy diferente al de la mayoría de las demás líneas. Sus piernas son cortas, el cuerpo amplio y la pechuga ancha y musculosa. <br>
+                Sus características son aceptables para el productor de carne, pero su producción de huevo es baja, además de poner huevos de tamaño pequeño y de bajo grado de incubabilidad.</p>
+            </div>
+            <div class="img__containerCornish"><img src="imagenes/cornish-chickens.jpg" alt="Gallina Cornish" title="Gallina Cornish"></div>
+
+        </section>
+        <!---->
+        <!---->
+        <section id="razaNewHampshire">
+            
+            <div class="descripcion__NewHampshire">
+                <h2 class="titulo__descripcionNewHampshire">New Hampshhire</h2>
+                <p>Se generó de la Rhode Island Roja en un proceso de cría cuyas finalidades eran alta producción de huevo y alta incubabilidad. <br>
+                    En el curso de este proceso las plumas se volvieron más blancas, siendo de plumaje rojo claro. En un principio a esta línea se le reconoció como una alta productora de huevo, aunque en la actualidad se le reconoce por un ave productora de carne de excelente calidad. Por varios años fue raza líder en la producción de pollitos para engorde. A pesar de todo ello, esta línea ha sido comercializada por pocos productores de aves de engorde; con todo, se vende en muchos países extranjeros sobre todo para explotar su carne.
+
+                    La New Hampshire se ha utilizado como raza básica para el desarrollo de muchas razas sintéticas de pollo de engorde y aun se utiliza con este propósito en la actualidad. Además, su capacidad para producir gran número de huevos que incuban bien, es una valiosa característica para muchas combinaciones genéticas.</p>
+                
+            </div>
+
+            <div class="img__containerNewHampshire"><img src="imagenes/Gallina-New-Hampshire.jpg" alt="Gallina New Hampshhire" title="Gallina New Hampshire"></div>
+
+        </section>
+        <!---->
+    </div>
+</section>
+
+<!--Se crea el pie de página-->
+<footer>
+    <div class="container__footer">
+        <p>&copy; Samuel Orozco Mondragón</p>
+    </div>
+</footer>
+
+
+</body>
+</html>

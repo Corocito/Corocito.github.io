@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Personal</title>
+    <link rel="icon" href="../La grande.ico">
+    <!--Se enlaza el archivo de css para el diseño-->
+    <link rel="stylesheet" href="style.css"> 
+    <!--Se enlaza el archivo de JavaScript para el funcionamiento-->
+    <script src="scritp.js"></script>
+    <!--Se selecciona el archivo que contiene el diseño de la pagina web-->
+    <meta name="author" content="Samuel Orozco Mondragón">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+   <!--Se crea un mensaje para que se muestre en caso de que el usuario no cuente con
+Javascript activado-->
+<noscript>
+   <p>La página requiere el uso de JavaScript para su correcto funcionamiento</p>
+   <p>Active JavaScript por favor</p>
+</noscript>
+
+<header class="header">
+   <div class="container">
+
+       <div class="btnMenuCorredizo">
+           <label for="btn-menu">☰</label>
+       </div>
+
+       <p class="logo">Página Web Personal</p>
+       
+       <nav class="menuPrincipal">
+           <a href="index.html">Principal</a>
+           <a href="tablas.html">Tablas</a>
+           <a href="video.html">Video</a>
+           <a href="formulario.html">Formulario</a>
+       </nav>
+   </div>
+<div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C122.12,182.06 659.37,-117.92 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(22, 82, 132);"></path></svg></div>
+
+</header>
+
+<section id="descripcion">
+    <div class="container__descripcion"></div>
+</section>
+
+<!--El hero es el banner de la página-->
+<section id="hero">
+   <h1>Tabla de Datos</h1>
+</section>
+
+<!--Se crea la sección que va a contener el menú corredizo-->
+<input type="checkbox" id="btn-menu">
+
+<div class="container-menu">
+   <div class="cont_menu">
+       <nav>
+           <a href="index.html">Principal</a>
+           <a href="tablas.html">Tablas</a>
+           <a href="video.html">Video</a>
+           <a href="formulario.html">Formulario</a>
+       </nav>
+       <label for="btn-menu">✖️</label>
+   </div>
+</div>
+
+<!--Se inicia con la la creación de la tabla que se mostrará en pantalla-->
+<section id="descripcion__tabla">
+    <div class="container__descripciontabla">
+        <p>A continuación se presenta una tabla de datos que muestra distintos
+            datos sobre personas.
+        </p>
+    </div>
+</section>
+
+<section id="tabla">
+    <div class="container__tabla">
+        <table>
+            <tr class="fila__1">
+                <th>NOMBRE</th>
+                <th>EDAD</th>
+                <th>TELÉFONO</th>
+                <th>CORREO</th>
+            </tr>
+            <tr>
+                <th>Sara Orozco</th>
+                <th>15</th>
+                <th>81929319</th>
+                <th>so@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Astrid Mondragón</th>
+                <th>41</th>
+                <th>92839178</th>
+                <th>as@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Pepe Ignacio</th>
+                <th>82</th>
+                <th>87123788</th>
+                <th>pp@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Juan Perez</th>
+                <th>18</th>
+                <th>12314178</th>
+                <th>jp@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Marta Lucia</th>
+                <th>20</th>
+                <th>88123878</th>
+                <th>maliu@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Alejandro Jurado</th>
+                <th>30</th>
+                <th>981723819</th>
+                <th>alju@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Estefani Jimenez</th>
+                <th>20</th>
+                <th>87198231</th>
+                <th>es@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Santiago Pulgarin</th>
+                <th>24</th>
+                <th>12930801</th>
+                <th>san@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Mick Gordon</th>
+                <th>39</th>
+                <th>123988821</th>
+                <th>mgor@gmail.com</th>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<!---->
+<!---->
+<br>
+<br>
+<br>
+
+
+<!--Se crea el pie de página-->
+<footer>
+   <div class="container__footer">
+       <p>&copy; Samuel Orozco Mondragón</p>
+   </div>
+</footer>
+
+</body>
+</html>

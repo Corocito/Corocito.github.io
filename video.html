@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Personal</title>
+    <link rel="icon" href="../La grande.ico">
+    <!--Se enlaza el archivo de css para el diseño-->
+    <link rel="stylesheet" href="style.css">
+    <!--Se enlaza el archivo de JavaScript para el funcionamiento-->
+    <script src="scritp.js"></script> 
+    <!--Se selecciona el archivo que contiene el diseño de la pagina web-->
+    <meta name="author" content="Samuel Orozco Mondragón">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <!--Se crea un mensaje para que se muestre en caso de que el usuario no cuente con
+Javascript activado-->
+<noscript>
+   <p>La página rquiere el uso de JavaScript para su correcto funcionamiento</p>
+   <p>Active JavaScript por favor</p>
+</noscript>
+
+<header class="header">
+   <div class="container">
+
+       <div class="btnMenuCorredizo">
+           <label for="btn-menu">☰</label>
+       </div>
+
+       <p class="logo">Página Web Personal</p>
+       
+       <nav class="menuPrincipal">
+           <a href="index.html">Principal</a>
+           <a href="tablas.html">Tablas</a>
+           <a href="video.html">Video</a>
+           <a href="formulario.html">Formulario</a>
+       </nav>
+   </div>
+<div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C122.12,182.06 659.37,-117.92 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(22, 82, 132);"></path></svg></div>
+
+</header>
+
+<section id="descripcion">
+    <div class="container__descripcion"></div>
+</section>
+
+<!--El hero es el banner de la página-->
+<section id="hero">
+   <h1>Video</h1>
+</section>
+
+<!--Se crea la sección que va a contener el menú corredizo-->
+<input type="checkbox" id="btn-menu">
+
+<div class="container-menu">
+   <div class="cont_menu">
+       <nav>
+           <a href="index.html">Principal</a>
+           <a href="tablas.html">Tablas</a>
+           <a href="video.html">Video</a>
+           <a href="formulario.html">Formulario</a>
+       </nav>
+       <label for="btn-menu">✖️</label>
+   </div>
+</div>
+
+<section id="descripcion__video">
+    <div class="container__descripcionVideo">
+        <p>A continuación se presenta un video de Youtube en el que se muestran varios gallos y gallinas rescatados</p>
+    </div>
+</section>
+
+
+<section id="video">
+    <div class="container__video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/maKLQYkJa04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+<!--Se crea el pie de página-->
+<footer>
+   <div class="container__footer">
+       <p>&copy; Samuel Orozco Mondragón</p>
+   </div>
+</footer>
+
+</body>
+</html>
